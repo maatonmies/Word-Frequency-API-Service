@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Exceptions\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RestSharp" Version="106.11.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WordFrequencyService.Contract\WordFrequencyService.Contract.csproj" />
+    <ProjectReference Include="..\WordFrequencyService.Data\WordFrequencyService.Data.csproj" />
+    <ProjectReference Include="..\WordFrequencyService.Utilities\WordFrequencyService.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

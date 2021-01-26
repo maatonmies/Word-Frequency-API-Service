@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordFrequencyService.Web", "WordFrequencyService.Web\WordFrequencyService.Web.csproj", "{96A9D870-CAD6-45B1-A33F-DA2912FB765A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordFrequencyService.Contract", "WordFrequencyService.Contract\WordFrequencyService.Contract.csproj", "{D425C55D-9074-4848-A3D3-A8A4BA536C16}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordFrequencyService.Core", "WordFrequencyService.Core\WordFrequencyService.Core.csproj", "{F77F15BB-B934-48D1-BFB1-43787D172AA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordFrequencyService.Data", "WordFrequencyService.Data\WordFrequencyService.Data.csproj", "{BD61B3D9-862A-4B8C-A744-CC4B7E47FC2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordFrequencyService.Utilities", "WordFrequencyService.Utilities\WordFrequencyService.Utilities.csproj", "{F8B1CB46-DD42-44C5-B31E-DE0F67D4C1C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordFrequencyService.Test.Unit", "WordFrequencyService.Test.Unit\WordFrequencyService.Test.Unit.csproj", "{181A7F9A-4736-49D6-B5BF-E05171C706F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96A9D870-CAD6-45B1-A33F-DA2912FB765A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A9D870-CAD6-45B1-A33F-DA2912FB765A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A9D870-CAD6-45B1-A33F-DA2912FB765A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A9D870-CAD6-45B1-A33F-DA2912FB765A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D425C55D-9074-4848-A3D3-A8A4BA536C16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D425C55D-9074-4848-A3D3-A8A4BA536C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D425C55D-9074-4848-A3D3-A8A4BA536C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D425C55D-9074-4848-A3D3-A8A4BA536C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F77F15BB-B934-48D1-BFB1-43787D172AA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F77F15BB-B934-48D1-BFB1-43787D172AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F77F15BB-B934-48D1-BFB1-43787D172AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F77F15BB-B934-48D1-BFB1-43787D172AA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD61B3D9-862A-4B8C-A744-CC4B7E47FC2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD61B3D9-862A-4B8C-A744-CC4B7E47FC2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD61B3D9-862A-4B8C-A744-CC4B7E47FC2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD61B3D9-862A-4B8C-A744-CC4B7E47FC2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8B1CB46-DD42-44C5-B31E-DE0F67D4C1C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B1CB46-DD42-44C5-B31E-DE0F67D4C1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B1CB46-DD42-44C5-B31E-DE0F67D4C1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B1CB46-DD42-44C5-B31E-DE0F67D4C1C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{181A7F9A-4736-49D6-B5BF-E05171C706F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{181A7F9A-4736-49D6-B5BF-E05171C706F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{181A7F9A-4736-49D6-B5BF-E05171C706F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{181A7F9A-4736-49D6-B5BF-E05171C706F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AEFC819-5A9E-4B32-AE94-5DA0DF402245}
+	EndGlobalSection
+EndGlobal
