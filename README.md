@@ -12,4 +12,4 @@ Everything should work out of the box using IIS Express in Visual Studio. The lo
 
 **TODO**
 
-Unfortunately due to work and family commitments I have not been able to spend as much time with this project as I wanted to so I have not implemented authrodisation yet. Will add token authorisation and token issuer endpoints shortly. I will also make the local sql server work with Docker if I have the time. 
+Unfortunately due to work and family commitments I have not been able to spend as much time with this project as I wanted to so I have not implemented authorisation yet. Will add token authorisation and token issuer endpoints shortly. I will also make the local sql server work with Docker if I have the time. 
